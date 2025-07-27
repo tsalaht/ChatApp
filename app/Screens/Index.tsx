@@ -32,7 +32,7 @@ const ProtectedScreens: React.FC = () => {
   };
 
   const commonTabBarStyle:any = {
-    height: 90,
+    height: 110,
     backgroundColor: "transparent", // Set to transparent to show screen's background
     borderTopWidth: 0,
     marginBottom: 0,

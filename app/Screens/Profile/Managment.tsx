@@ -15,7 +15,7 @@ const Managment = () => {
             style={styles.container}
         >
             <View style={{ width: '100%', paddingTop: 30, paddingBottom: 10, alignItems: 'center', justifyContent: 'center', gap: 2 }}>
-                <Pressable style={{ marginTop: 10 }}>
+                {/* <Pressable style={{ marginTop: 10 }}>
                     <View style={{ alignItems: "center", justifyContent: "center", width: 350, height: 95, overflow: 'hidden' }}>
                         <ImageBackground
                             source={backgroundImage2}
@@ -45,7 +45,7 @@ const Managment = () => {
                             />
                         </ImageBackground>
                     </View>
-                </Pressable>
+                </Pressable> */}
                 <View style={{ width: "100%", alignItems: "center", justifyContent: 'center', marginTop: 20, gap: 18, paddingHorizontal: 20 }}>
                     <Pressable style={{ width: "100%" }}>
                         <LinearGradient
