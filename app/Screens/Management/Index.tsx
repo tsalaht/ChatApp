@@ -5,6 +5,8 @@ import Profile from '../Profile/Profile';
 import Shope from './Shope';
 import Bage from './Bage';
 import Guest from './Guest';
+import Delevery from './Delevery';
+import Krypto from './Krypto';
 
 
 const Stack = createNativeStackNavigator();
@@ -28,6 +30,20 @@ const Management = () => {
       <Stack.Screen
         name="Guest"
         component={Guest}
+        options={{
+          headerShown: false,
+        }}
+      />
+      <Stack.Screen
+        name="Delevery"
+        component={Delevery}
+        options={{
+          headerShown: false,
+        }}
+      />
+      <Stack.Screen
+        name="Krypto"
+        component={Krypto}
         options={{
           headerShown: false,
         }}

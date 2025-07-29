@@ -102,7 +102,7 @@ const Profile = () => {
                                 </Text>
                             </View>
                         </Pressable>
-                        <Pressable>
+                        <Pressable onPress={() => navigation.navigate('AllManagement', { screen: "Krypto" })}>
                             <View style={{ alignItems: 'center', justifyContent: 'center', gap: 0 }}>
                                 <SvgXml xml={icons.wallet} />
                                 <Text style={{ fontFamily: "NotoKufiArabic_500Medium" }}>
@@ -226,7 +226,7 @@ const Profile = () => {
                                       </View>
                                   </LinearGradient>
                               </Pressable>
-                              <Pressable style={{ width: "100%" }}>
+                              <Pressable style={{ width: "100%" }} onPress={() => navigation.navigate('AllManagement', { screen: "Delevery" })}>
                                   <LinearGradient
                                       colors={['rgba(67, 163, 45, 0.95)', 'rgba(248, 229, 178, 0.95)']}
                                       start={{ x: 0, y: 1.1 }}
